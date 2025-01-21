@@ -1,2 +1,2 @@
-# Hospital
-Draft codes for the data analysis from the hospital.
+# Description
+This code is for the IWS computable phenotype produced by Virginia Tech and Children's National Hospital.
