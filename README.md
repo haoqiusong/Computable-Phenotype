@@ -19,26 +19,24 @@ This pipeline includes:
 - Feature importance (top-10)
 - Clean modular structure, suitable for research pipelines
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-your-repo-name/
+Computable-Phenotype/
 │
 ├── src/
-│   ├── train_xgb_model.py        # The cleaned/polished script
-│   ├── utils.py                  # (Optional) Utilities if needed later
-│
-├── data/
-│   ├── your_dataset.csv          # (Private, do NOT upload to GitHub)
-│
-├── models/
-│   ├── README.md                 # (Placeholder)
-│
-├── results/
-│   ├── plots/                    # ROC, PR, Calibration, FI
-│   ├── metrics/                  # JSON/CSV performance outputs
-│
+│   ├── train_xgb_model.py        # The cleaned script
 ├── requirements.txt
 ├── README.md
-└── LICENSE                       # Recommend MIT license
+└── LICENSE
+```
+
+## Installation
+
+Requires Python ≥ 3.11.
+
+```
+git clone https://github.com/haoqiusong/Computable-Phenotype.git
+cd Computable-Phenotype
+pip install -r requirements.txt
 ```
